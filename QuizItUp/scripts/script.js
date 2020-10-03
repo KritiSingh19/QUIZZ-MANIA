@@ -22,5 +22,5 @@ export const Diagnostics = require('Diagnostics');
 
 const text1=Scene.root.findFirst('2dText0');
 const patchval=Patches.getScalarValue('counter');
-
+const newpatch=Scene.root.findFirst('zero');
 text1.text=patchval.toString();
